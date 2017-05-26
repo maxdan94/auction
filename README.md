@@ -6,7 +6,7 @@ Efficient C implementation of the auction algorithm of Bertsekas for the assigne
 
 Feel free to use these lines as you wish. This is an efficient C implementation of the Auction algorithm for the assignement problem such as detailed in:  
 D.P. Bertsekas, A distributed algorithm for the assignment problem,Laboratory for Information and Decision Systems Working Paper (M.I.T., March 1979).  
-It should easily scale to hundreds of millions of nodes and/or edges if the data is not too adverserial.
+It should easily scale to millions of nodes and/or edges if the data is not too adverserial.
 
 # To compile:
 
