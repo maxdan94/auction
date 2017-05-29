@@ -64,7 +64,7 @@ inline unsigned max2u(unsigned a,unsigned b){
 	return (a>b) ? a : b;
 }
 
-//reading the edgelist with capacities from file
+//reading the edgelist of bipartit weighted graph from file
 bipgraph* readedgelist(char* edgelist){
 	unsigned e1=NLINKS;
 	bipgraph *g=malloc(sizeof(bipgraph));
