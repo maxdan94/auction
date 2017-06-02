@@ -17,7 +17,7 @@ It should easily scale to millions of nodes and/or edges if the data is not too 
 "./auction edgelist.txt res.txt eps".
 - "edgelist.txt" should contain the edges with integral weights in the bipartite graph: one edge on each line separated by spaces "n1 n2 w", n1 from 0 to n1max and n2 from 0 to n2max.
 - "res.txt" contains the results: one edge "n1 n2 w" of the assignement on each line.
-- eps is the stepsize, if eps<1/min(n1,n2) then the algorithm is optimal.
+- eps is the stepsize, if eps<1/min(n1,n2) then the algorithm is optimal (for integer weights), if not we still know that the objective is higher than opt-N.eps. The smaller eps, the slower the running time.
 
 Will print some information in the terminal.
 
